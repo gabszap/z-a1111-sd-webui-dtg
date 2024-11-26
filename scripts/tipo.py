@@ -696,7 +696,7 @@ shared.options_templates.update(
         ("TIPO", "TIPO", "prompt_gen"),
         {
             "tipo_no_extra_input": shared.OptionInfo(
-                False,
+                True,
                 (
                     "Disable extra input for TIPO"
                     ", Natural Language Prompt and Tag Prompt will be hidden."
